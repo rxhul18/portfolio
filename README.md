@@ -1,5 +1,4 @@
 <div align="center">
-<img alt="preview" src="https://github.com/0xSabdadev/dev-portfolio/blob/master/public/prev.png" width="90%">
 </div>
 
 # 🚀 Welcome to the Future! [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/)
@@ -48,10 +47,6 @@ Open [this sacred file](./src/data/config/site.config.tsx) and start molding you
 ## 6. 3rd Party Integration
 
 Sync up with the matrix by setting up your [Loops](https://loops.so/) account and add your secret keys: `LOOPS_API_KEY`, `GITHUB_TOKEN`, `WAKATIME_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHANNEL_CHAT_ID` in your `.env.local`.
-
-# 📜 License
-
-Unleashed to the world under the [MIT License](https://github.com/0xSabdadev/dev-portfolio/blob/master/LICENSE.md). Go forth and create!
 
 # 🙏 Acknowledgments 
 
