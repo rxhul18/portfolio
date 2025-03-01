@@ -19,8 +19,6 @@ export const WakatimeStats = () => {
     dedupingInterval: 60 * 1000, // Dedupe requests within 1 minute
   });
 
-  console.log(data,"data")
-
   if (isLoading) {
     return (
       <div className="h-[4.125rem] relative flex flex-col justify-center overflow-hidden items-center rounded-lg dark:text-white">
@@ -39,7 +37,6 @@ export const WakatimeStats = () => {
 
   // Safely access total_seconds with fallback to 0
   const totalHours = Math.round((data?.total_seconds ?? 0) / 3600);
-  console.log(data,"data")
   return (
     <a
       href="https://wakatime.com/@c8ea4cc6-93d4-472d-b908-8c78f064aa9f"

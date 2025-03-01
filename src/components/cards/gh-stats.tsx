@@ -12,21 +12,21 @@ export const GHStats = () => {
   });
 
   useEffect(() => {
-    // const fetchStats = async () => {
-    //   try {
-    //     const response = await fetch('/api/gh-stats');
-    //     if (response.ok) {
-    //       const data = await response.json();
-    //       setStats(data);
-    //     } else {
-    //       console.error('Gagal mengambil data GitHub Stats');
-    //     }
-    //   } catch (error) {
-    //     console.error('Error:', error);
-    //   }
-    // };
+    const fetchStats = async () => {
+      try {
+        const response = await fetch('/api/gh-stats');
+        if (response.ok) {
+          const data = await response.json();
+          setStats(data);
+        } else {
+          console.error('Gagal mengambil data GitHub Stats');
+        }
+      } catch (error) {
+        console.error('Error:', error);
+      }
+    };
 
-    // fetchStats();
+    fetchStats();
   }, []);
 
   return (

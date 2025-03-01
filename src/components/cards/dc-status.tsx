@@ -24,9 +24,9 @@ export const DCStatus = () => {
     fetcher
   );
   
-  if (data) {
-    console.log("API Response:", data);
-  }
+  // if (data) {
+  //   console.log("API Response:", data);
+  // }
 
   const getStatus = (status: ApiDiscordStatus) => {
     if (!status) return "Unknown Status";

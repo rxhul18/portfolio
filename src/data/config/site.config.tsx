@@ -12,17 +12,16 @@ export const DATA = {
   timeZone: "Asia/Mumbai",
   localCode: "en-IN",
   description:
-    "web3 developer blooded | rxhul18",
-  about:
-    "Hola, I'm a Web3 dev straight outta [Jaksel](https://maps.app.goo.gl/DPRcouZjgvTDHxb49), grinding @Starbase (part of the [Indodax](https://indodax.com) fam). I’m all about building dope, next-gen products that can shake up the game and make a real impact. Always vibin’ with new tech and dropping my work on the [block](https://github.com/0xSabdadev) to keep the ecosystem lit.\n\nWhen I'm not deep in the code, I'm either gaming, bumpin' tunes, or diving into some fire self-help reads. And yeah, [Iron Man](https://instagram.com/jason_riskov10)? That dude’s the GOAT—serious inspo right there. Catch you in the metaverse!",
-  bio: "Yo, I'm a Web3 dev straight outta [Jaksel](https://maps.app.goo.gl/DPRcouZjgvTDHxb49), grinding @Starbase (part of the [Indodax](https://indodax.com) fam). I’m all about building dope, next-gen products that can shake up the game and make a real impact. Always vibin’ with new tech and dropping my work on the [block](https://github.com/0xSabdadev) to keep the ecosystem lit.\n\nWhen I'm not deep in the code, I'm either gaming, bumpin' tunes, or diving into some fire self-help reads. And yeah, [Iron Man](https://instagram.com/jason_riskov10)? That dude’s the GOAT—serious inspo right there. Catch you in the metaverse!",
+    "Fullstack developer blooded | rxhul18",
+  about:"やあ, I’m Rahul, a Fullstack dev with a frontend edge based in Mumbai/Pune, Intern in [Next carbon](https://github.com/Nextc1/Next_carbon) Project under IITM and grinding at [Plura](https://plura.pro/). I’m all about crafting slick Pixel Perfect UIs, building Saas software, and pushing the boundaries and discovering of AI/ML, Web3. Always experimenting, always building—because the ecosystem never sleeps..\n\nWhen I'm not deep in the code, I'm either gaming, learning guitar, or skecting / painting. Watching him bat is like witnessing controlled chaos—precision, aggression, and absolute mastery. Every innings, a lesson in dominance. Catch you in the feild!",
+  bio:"やあ, I’m Rahul, a Fullstack dev with a frontend edge based in Mumbai/Pune, Intern in [Next carbon](https://github.com/Nextc1/Next_carbon) Project under IITM and grinding at [Plura](https://plura.pro/). I’m all about crafting slick Pixel Perfect UIs, building Saas software, and pushing the boundaries and discovering of AI/ML, Web3. Always experimenting, always building—because the ecosystem never sleeps..\n\nWhen I'm not deep in the code, I'm either gaming, learning guitar, or skecting / painting. Watching him bat is like witnessing controlled chaos—precision, aggression, and absolute mastery. Every innings, a lesson in dominance. Catch you in the feild!",
   career:
-    "I started as a self-taught developer at the age of 14, while I was in 8th grade and it's been a rollercoaster ride since then. Am aka [SkidGod](https://dub.sh/skidgod) on the internet. Won't you ask me what does it mean? [Click here to know](/about).",
+    "Started my dev journey at 17, hacking away in 11th grade—been building, breaking, or learning ever since and it's been a rollercoaster ride since then.",
   careerFull:
-    "I began my journey as a self-taught developer at 14, during 8th grade, and it's been a rollercoaster ever since. Online, I'm known as [SkidGod](https://dub.sh/skidgod), a name that reflects my roots—starting as an unskilled 'skid' using others' scripts.\n\nBack in 2019, I was just an average school kid with little tech knowledge. When the pandemic hit, everything moved online, and I got a Redmi 8 for attending classes. But, I quickly turned it into a gaming device, getting hooked on ***Free Fire***. This led me to join Discord gaming servers, where I discovered the world of Discord bots.\n\nI met a guy named Priyanshu, the creator of the 'Groot' bot, and got inspired. I spent a year skidding code on Replit, eventually learning Python. I then built a successful Discord bot, 'Floater,' with over 3 million users and 5,000 servers. Despite being bullied for being a 'skid,' I embraced the name SkidGod and started contributing to open-source Discord bots.\n\nAnd that's how my career began.",
-  avatarUrl: "/me.png",
+    "Started my dev journey at 17, hacking away in 11th grade—been building, breaking, or learning ever since and it's been a rollercoaster ride since then.s.\n\nBack in 2021, I was just an Higher School student with little tech knowledge. When the pandemic hit, everything moved online, and I got a my first laptop for attending classes. This led me to start my learning tech from HTML, CSS. \n\nIt's all started from my uncle who wanted teach some student , and i was one of them he intro the web to me how it's works under the hood, and i got inspired. Since then i never stoped learning buckled the seatbelt stared my ride in web. I then built some succesful project.\n\nThat’s how the journey began, and trust me—the ride’s just getting started. 🚀",
+  avatarUrl: "/me.jpeg",
   connect:
-    "Let's vibe and create something epic together. Hit me up if you're down to collab or explore new opportunities. Slide into my DMs on [X/Twitter](https://x.com/0xSabdadev), [Instagram](https://instagram.com/jason_riskov10), or drop a line via **email: (jasonalhilal@gmail.com)**. Let's make moves!.",
+    "Let's vibe and create something epic together. Hit me up if you're down to collab or explore new opportunities. Slide into my DMs on [X/Twitter](https://x.com/mindpuzzledev), [LinkediIn](https://www.linkedin.com/in/rxhul18/) or drop a line via **email: (rahulshah0728@gmail.com)**. Let's make moves!.",
   skills: [
     "React",
     "Next.js",
@@ -31,11 +30,10 @@ export const DATA = {
     "Node.js",
     "Python",
     "Postgres",
-    "Javascript",
   ],
   contact: {
-    email: "jasonalhilal@gmail.com",
-    tel: "+6281328081308",
+    email: "rahulshah0728@gmail.com",
+    tel: "+91 88976336081",
     social: {
       GitHub: {
         name: "GitHub",
@@ -58,24 +56,16 @@ export const DATA = {
 
         navbar: true,
       },
-      Instagram: {
-        name: "Instagram",
-        url: "https://instagram.com/",
-        icon: Icons.x,
-
-        navbar: true,
-      },
       Youtube: {
         name: "Youtube",
-        url: "https://youtube.com/mindpuzzledev",
+        url: "https://www.youtube.com/@MindPuzzleDev",
         icon: Icons.youtube,
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:rahulshah0728@gmail.com",
         icon: Icons.email,
-
         navbar: false,
       },
     },
@@ -83,35 +73,51 @@ export const DATA = {
 
   education: [
     {
-      school: "Computer Science and Engineering",
-      location: "Diponegoro University",
-      href: "https://uncip.ac.id",
-      degree: "Bachelor of Computer Science, GPA:3.89/4.00",
-      logoUrl: "/klyeh.png",
-      start: "2020",
-      end: "2024",
+      school: "D.Y Patil International University",
+      location: "Akrudi, Pune",
+      href: "https://www.dypiu.ac.in/",
+      degree: "Bachelor of Computer Application",
+      logoUrl: "/dypiu.png",
+      start: "2023",
+      end: "2026",
     },
     {
-      school: "Bangkit Academy by Google, GoTo, and Traveloka",
-      location: "Bandung, Indonesia",
-      href: "https://www.bangkit.academy",
-      degree: "Machine Learning Apprenticeship",
-      logoUrl: "/cibungk.png",
-      start: "2023",
+      school: "Shree Sanatan Dharam Vidyalaya & Junior College",
+      location: "Chembur, Mumbai",
+      href: "#",
+      degree: "Higher Secondary (HSC)",
+      logoUrl: "/ssdv.png",
+      start: "2021",
       end: "2023",
     },
   ],
   hackathons: [
     {
-      title: "Hack Western 5",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
+      title: "ETH India - 2024",
+      dates: "December 8, 2024",
+      location: "KTPO, Bangaluru",
       description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
+        "BuiledAn an Decentralized encrypted or decrypted with credential handler or Secret manager. Encrypting on Lit Network at ETHIndia 2024.",
+      image:"https://devfolio-prod.s3.ap-south-1.amazonaws.com/hackathons/d64ead180bfc42bda8cee408f6d39b80/assets/favicon/627.png",
+      links: "https://github.com/rxhul18/LitSceretManager", 
+    },
+    {
+      title: "Smart India hackathon, Internal Collage",
+      dates: "September 19, 2024",
+      location: "DY Patil International University",
+      description:
+        "Developed a mobile beta application for women safty with blockchain and ML model. 2nd Runner Up spot in the Internal Round of SIH 2024.",
+      image:"https://media.licdn.com/dms/image/v2/D4D0BAQGDogxfknLvbw/company-logo_200_200/company-logo_200_200/0/1663387660577/d_y_patil_international_university_akurdi_pune_logo?e=1749081600&v=beta&t=4yQ2DQ9kj96vI8TILxE4P6F9eH5EBeMu4fVa80YbuRw",
+      links: "https://www.linkedin.com/posts/rxhul18_proud-moment-for-our-team-weve-clinched-activity-7243106693536989185-p3-U/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADs3NSABTr9keFQ2FkiGCNff9sQItV9tgko",
+    },
+    {
+      title: "AvenYou Collage Hackahton",
+      dates: "April 27, 2024",
+      location: "DY Patil International University",
+      description:
+        "Developed a mobile beta application which can place direct order to the canteen with, prebreak seat reservation and daily menu detail.",
+      image:"https://media.licdn.com/dms/image/v2/C4D0BAQH68oGjxpzFKA/company-logo_200_200/company-logo_200_200/0/1661758166658/avenuedypiu_logo?e=1749081600&v=beta&t=c1751pqaH4K2JObRGyXKxJF0x6_4_96e63gwwIB4g7U",
+      links: "https://www.linkedin.com/posts/rxhul18_disruptthenorm-avenyou-dypatilinternationaluniversity-activity-7195248826473996289-JNXk/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADs3NSABTr9keFQ2FkiGCNff9sQItV9tgko",
     },
   ],
 } as const;

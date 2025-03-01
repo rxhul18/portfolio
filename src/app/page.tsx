@@ -116,7 +116,6 @@ export default function Page() {
 
       const data = await response.json();
       setIsInputLoading(false);
-      console.log("Message successful:", data);
       // Show success toast
       toast.success(" Tx confirmed! live on-chain to 0xSabdadev!");
       // Update local storage to indicate subscription
@@ -171,6 +170,7 @@ export default function Page() {
                       timeZone: 'Asia/Kolkata',
                       hour: "2-digit",
                       minute: "2-digit",
+                      second: "2-digit",
                       hour12: true,
                     })}
                   </Badge>
@@ -185,7 +185,7 @@ export default function Page() {
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Lens hovering={hovering} setHovering={setHovering}>
-                <Avatar className="size-36 border-black border-[1px] cursor-pointer rounded-full">
+                <Avatar className="size-40 border-black border-[1px] cursor-pointer rounded-full">
                   <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                   <AvatarFallback>{DATA.initials}</AvatarFallback>
                 </Avatar>
