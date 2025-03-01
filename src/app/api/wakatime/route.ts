@@ -26,8 +26,12 @@ type WakatimeRes = {
 
 export const GET = async () => {
   try {
+    // Get today's date in YYYY-MM-DD format for local timezone
+    const today = new Date();
+    const startDate = today.toISOString().split('T')[0];
+    
     const res = await fetch(
-      "https://wakatime.com/api/v1/users/current/summaries?range=today",
+      `https://wakatime.com/api/v1/users/current/summaries?start=${startDate}&end=${startDate}`,
       {
         headers: {
           Authorization: `Basic ${Buffer.from(process.env.WAKATIME_API_KEY!).toString(
@@ -52,7 +56,6 @@ export const GET = async () => {
     }
 
     const data = await res.json();
-    ('Wakatime API Response:', data);
 
     // Get the first (and only) summary for today
     const todaySummary = data.data?.[0] || { grand_total: { total_seconds: 0 } };
@@ -67,7 +70,7 @@ export const GET = async () => {
       human_readable_total: todaySummary.grand_total?.text ?? "0 mins",
     });
   } catch (error) {
-    console.error('Unexpected error:', error);
+    throw new Error
     return NextResponse.json({ error: (error as Error).message }, { status: 500 });
   }
 };
