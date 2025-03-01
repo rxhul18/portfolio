@@ -4,7 +4,6 @@ import { unstable_cache as cache } from "next/cache";
 export const getGHStats = cache(
   async () => {
     const gql = String.raw;
-    console.log("satrat")
     const { user } = await octokit.graphql<{
       user: {
         repositoriesContributedTo: { totalCount: number };
@@ -57,7 +56,6 @@ export const getGHStats = cache(
       { login: "rxhul18" }
     );
 
-    console.log(user,"user")
     return {
       issues: user.closedIssues.totalCount + user.openIssues.totalCount,
       prs: user.pullRequests.totalCount,

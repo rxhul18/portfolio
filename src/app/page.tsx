@@ -150,10 +150,10 @@ export default function Page() {
 
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
-      <Spotlight
+      {/* <Spotlight
         className="fixed -top-40 left-0 md:left-60 md:-top-20"
         fill="white"
-      />
+      /> */}
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">

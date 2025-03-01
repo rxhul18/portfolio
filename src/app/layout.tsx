@@ -11,6 +11,7 @@ import { ScheduleCallFloat } from "@/components/cal";
 import { Analytics } from "@vercel/analytics/react"
 import { Toaster } from "@/components/ui/sonner";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import SunlightBackground from "@/components/custom/sunlight-bg";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -104,19 +105,21 @@ export default function RootLayout({
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="dark">
-          <TooltipProvider delayDuration={0}>
-            <div className="hidden md:block">
-              <TopNavbar />
-            </div>
-            {children}
-            <SpeedInsights />
-            <div className="block md:hidden">
-              <BottomNavbar />
-            </div>
-            <ScheduleCallFloat />
-            <Analytics/>
-            <Toaster />
-          </TooltipProvider>
+          <SunlightBackground >
+            <TooltipProvider delayDuration={0}>
+              <div className="hidden md:block">
+                <TopNavbar />
+              </div>
+              {children}
+              <SpeedInsights />
+              <div className="block md:hidden">
+                <BottomNavbar />
+              </div>
+              <ScheduleCallFloat />
+              <Analytics />
+              <Toaster />
+            </TooltipProvider>
+          </SunlightBackground>
         </ThemeProvider>
       </body>
     </html>
