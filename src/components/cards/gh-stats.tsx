@@ -30,17 +30,17 @@ export const GHStats = () => {
   }, []);
 
   return (
-    <div className="bg-[#f7f2f2] dark:bg-[#0d1117] rounded-2xl h-36 relative group hover:scale-95 duration-500 transform-gpu">
+    <div className="bg-[#f7f2f2] dark:bg-black/30 rounded-lg h-36 relative group hover:scale-95 duration-500 transform-gpu">
       <a
-        href="http://github.com/0xSabdadev"
+        href="http://github.com/rxhul18"
         target="_blank"
         rel="noopener noreferrer"
       >
         <BackgroundPattern />
-        <div className="flex flex-row flex-wrap gap-x-6 sm:gap-x-4 md:gap-x-6 absolute bottom-1 p-2">
-          <GitHubStatsData label="🔴 Stars" value={stats.stars} />
-          <GitHubStatsData label="⚫ Followers" value={stats.followers} />
-          <GitHubStatsData label="🔵 PRs" value={stats.prs} />
+        <div className="flex flex-row flex-wrap gap-x-6 sm:gap-x-4 md:gap-x-6 absolute bottom-0 p-2">
+          <GitHubStatsData label="🟡 Stars" value={stats.stars} />
+          <GitHubStatsData label="㊙ Followers" value={stats.followers} />
+          <GitHubStatsData label="🟢 PRs" value={stats.prs} />
           <GitHubStatsData label="⚪ issues" value={stats.issues} />
         </div>
       </a>
@@ -76,7 +76,7 @@ const BackgroundPattern = () => {
     .fill(null)
     .map((_) => colours[Math.floor(seededRandom() * colours.length)]);
   return (
-    <div className="top-0 z-1 grid grid-cols-12 grid-rows-12 gap-1 pt-1 pl-2">
+    <div className="top-0 z-1 grid grid-cols-12 grid-rows-12 gap-1 pt-2 pl-2">
       {days.map((c, i) => (
         <div
           key={i}

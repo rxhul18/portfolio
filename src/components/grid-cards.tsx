@@ -24,7 +24,7 @@ export const GridCards = () => {
             <div className="w-64">
               <AnimeLinkCard />
             </div>
-            <div className="flex flex-col gap-3 w-full ">
+            <div className="flex flex-col gap-2 w-full ">
               <LinksCard />
               <WakatimeStats />
             </div>

@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
+
 "use client";
 import { useState, useEffect } from "react";
 import { Lens } from "@/components/acternityui/lens";
@@ -11,18 +11,12 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/config/site.config";
 import {
   AlarmClock,
-  CircleArrowOutUpRight,
-  LocateFixed,
-  Paperclip,
-  PartyPopper,
 } from "lucide-react";
 import Link from "next/link";
 import Markdown from "react-markdown";
 import { PlaceholdersAndVanishInput } from "@/components/acternityui/vanish-input";
-import { Spotlight } from "@/components/acternityui/spotlight";
 import { PROJECTS } from "@/data/config/projects.config";
 import { BlogCard } from "@/components/blog-card";
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { toast } from "sonner";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { GridCards } from "@/components/grid-cards";
@@ -85,7 +79,7 @@ export default function Page() {
   const [hovering, setHovering] = useState(false);
   const [currentTime, setCurrentTime] = useState(new Date());
   const placeholders = [
-    "Send message to 0xSabdadev",
+    "Send message to rxhul18",
     "Connect to the decentralized future",
     "Drop a message, let's build the metaverse",
     "Deploy your ideas, no central authority",
@@ -149,11 +143,7 @@ export default function Page() {
   }, []);
 
   return (
-    <main className="flex flex-col min-h-[100dvh] space-y-10">
-      {/* <Spotlight
-        className="fixed -top-40 left-0 md:left-60 md:-top-20"
-        fill="white"
-      /> */}
+    <main className="flex flex-col min-h-[100dvh] space-y-10 mt-10">
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
@@ -171,11 +161,11 @@ export default function Page() {
               />
               <BlurFade delay={BLUR_FADE_DELAY}>
                 <div className="flex flex-wrap gap-1 h-full w-full">
-                  <Badge variant="secondary" className="cursor-pointer">
+                  <Badge variant="outline" className="cursor-pointer">
                     <span className="size-4 mr-1">📍</span>
                     {DATA.location}
                   </Badge>
-                  <Badge variant="secondary" className="cursor-pointer">
+                  <Badge variant="outline" className="cursor-pointer">
                     <AlarmClock className="size-4 mr-1" />
                     {currentTime.toLocaleTimeString('en-IN', {
                       timeZone: 'Asia/Kolkata',
@@ -185,8 +175,8 @@ export default function Page() {
                     })}
                   </Badge>
                   <Link href={DATA.resume} target="_blank">
-                    <Badge variant="secondary" className="flex cursor-pointer">
-                      <span className="size-4 mr-1">✨</span>
+                    <Badge variant="outline" className="flex cursor-pointer">
+                      <span className="size-4 mr-1">📝</span>
                       Resume
                     </Badge>
                   </Link>
@@ -195,7 +185,7 @@ export default function Page() {
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Lens hovering={hovering} setHovering={setHovering}>
-                <Avatar className="size-28 border cursor-pointer rounded-none">
+                <Avatar className="size-36 border-black border-[1px] cursor-pointer rounded-full">
                   <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                   <AvatarFallback>{DATA.initials}</AvatarFallback>
                 </Avatar>
