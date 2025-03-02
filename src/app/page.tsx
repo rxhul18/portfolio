@@ -315,7 +315,7 @@ export default function Page() {
                         </p>
                       </div>
                     </div>
-                    <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[95%] sm:max-w-[800px] mx-auto mt-8">
+                    <div className="grid grid-cols-1 gap-3 md:grid-cols-2 max-w-[90%] md:max-w-[800px] mx-auto mt-8">
                       {PROJECTS.filter((project) => project.featured).map(
                         (project, id) => (
                           <BlurFade
@@ -359,8 +359,8 @@ export default function Page() {
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Got something to say? Drop your message below, and let’s talk
-                blockchain, crypto, and all things decentralized. No spam, just
-                straight-up web3 vibes.
+                AI/ML, blockchain, crypto, and all things decentralized. No spam, just
+                straight-up vibes.
               </p>
               <div className="pt-10 flex flex-row ">
                 {/* Name Input */}

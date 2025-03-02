@@ -2,159 +2,114 @@ import { ExternalLink, Link } from "lucide-react";
 
 export const WORK = [
   {
-    title: "Indodax (Web3 Ecosystem)",
-    role: "Fullstack Web3 Engineer",
-    dates: "Jan - Present",
-    location: "Hybrid, Jakarta Selatan (Indonesia)",
-    description: [
+    "title": "NEXT CARBON (IITM)",
+    "role": "Project Intern",
+    "dates": "Jan 2025 - Present",
+    "location": "Hybrid, IITM (India)",
+    "description": [
       {
-        text: "Collaborated directly with CTO and CEO on enhancing feature development for minting, redeeming, and bridging tokens across EVM networks (BSC, Polygon) and Solana, including administration and management functionalities for IDRX Stablecoins.",
-        technologies: ["NestJS", "NuxtJS", "Vuex", "Vuetify", "Prisma", "Rust", "Solidity"]
+        "text": "Developing a Web2.5 crowdfunding platform, integrating both traditional Web2 authentication and Web3 payment solutions for seamless user onboarding.",
+        "technologies": ["React", "Vite", "TypeScript"]
       },
       {
-        text: "Enhanced a sophisticated multi-chain banking integration selection, enabling seamless fiat on/off-ramps for token redemption across various e-wallets and traditional banking platforms for IDRX Stablecoins.",
-        technologies: ["NestJS", "Prisma"]
+        "text": "Implementing authentication with Web2 methods (Supabase Auth) and Web3 wallets, allowing users to contribute via Razorpay or Ethereum-based wallets.",
+        "technologies": ["Supabase", "PostgreSQL", "Razorpay", "Ethereum"]
       },
       {
-        text: "Developed an advanced administrative dashboard for comprehensive token lifecycle management, including mint, redeem, and bridge operations, with robust data visualization, filtering, and export capabilities to support Business Development initiatives for IDRX Stablecoins.",
-        technologies: ["NuxtJS", "Vuex", "Vuetify"]
+        "text": "Designing and developing smart contracts to facilitate decentralized funding, ensuring security, transparency, and efficiency.",
+        "technologies": ["Solidity", "Ethers.js"]
       },
       {
-        text: "Enhanced a dynamic transaction fee system for cross-chain token operations, optimizing gas costs and enhancing platform sustainability across EVM-compatible networks and Solana for IDRX Stablecoins.",
-        technologies: ["NestJS", "Solidity", "Rust"]
-      },
-      {
-        text: "Engineered a balance monitoring system for third-party payment gateways, ensuring optimal liquidity management and operational efficiency for IDRX Stablecoins.",
-        technologies: ["NestJS", "NuxtJS", "Vuex"]
-      },
-      {
-        text: "Developed an innovative retry mechanism for failed token swaps, significantly improving the success rate of cross-chain operations for IDRX Stablecoins.",
-        technologies: ["NestJS", "Web3.js", "Solana Web3.js"]
-      },
-      {
-        text: "Created a fault-tolerant redeem request processing system, implementing advanced error handling and recovery procedures to ensure robust token redemption across multiple blockchains for IDRX Stablecoins.",
-        technologies: ["NestJS"]
-      },
-      {
-        text: "Partnered with CTO to develop swapping features for EVM tokens on Base, Avalanche, and Arbitrum networks, as part of the Nusa DEX initiatives for Nusa Finance.",
-        technologies: ["jQuery", "Codeigniter"]
-      },
-      {
-        text: "Architected and implemented a high-performance, data-intensive home page for Nusa DEX V2, featuring real-time token metrics (gainers, losers, trending) across multiple networks. Optimized for speed using Incremental Static Regeneration (ISR), server-side rendering, and strategic preloading techniques.",
-        technologies: ["NextJS", "TypeScript"]
-      },
-      {
-        text: "Engineered a robust backend token API with advanced resilience mechanisms, including exponential backoff, intelligent retry logic with state persistence, and TTL caching, ensuring high availability and performance under load for Nusa DEX V2.",
-        technologies: ["Codeigniter", "PHP"]
-      },
-      {
-        text: "Developed a sophisticated same-chain swap engine, incorporating functionalities such as reverse routing, dynamic slippage adjustment, and gas optimization for Nusa DEX V2.",
-        technologies: ["NextJS", "TypeScript", "Web3.js"]
-      },
-      {
-        text: "Implemented a seamless user experience with reactive price quoting and an indexer-powered swap history. Optimized performance using Incremental Static Regeneration (ISR) and server-side rendering for efficient loading of extensive swap history data for Nusa DEX V2.",
-        technologies: ["NextJS", "TypeScript", "Web3.js"]
-      },
-      {
-        text: "Developed a sophisticated swap feature on the Base network using 0x API, including search token functionality, reverse swap capability, slippage percentage settings, and swap history tracking for Tokenomy.",
-        technologies: ["Next.js", "TypeScript", "Web3.js"]
-      },
-      {
-        text: "Developed an event logging and indexing system for $TEN stakers, featuring detailed event logs (stake, unbound, withdraw), real-time indexing, state data management, and an integrated admin staking dashboard for Tokenomy.",
-        technologies: ["Next.js", "TypeScript", "Web3.js", "CodeIgniter"]
+        "text": "Building a scalable backend with Supabase, integrating Postgres for data storage, and optimizing queries for performance.",
+        "technologies": ["Supabase", "PostgreSQL"]
       }
     ],
-    image: "/indodax.png",
-    links: [
+    "image": "/iitm.jpg",
+    "links": [
+      // {
+      //   "title": "Website",
+      //   "href": "https://nextcarbon.app/",
+      //   "icon": "<Link className='size-3' />"
+      // },
       {
-        title: "Website",
-        href: "https://www.indodax.com/",
-        icon: <Link className="size-3" />,
-      },
-      {
-        title: "Proof",
-        href: "https://linkedin.com/in/jasonalhilal",
-        icon: <ExternalLink className="size-3" />,
-      },
-    ],
+        "title": "Proof",
+        "href": "https://github.com/rxhul18/Next_carbon",
+        "icon": <ExternalLink className='size-3' />
+      }
+    ]
   },
   {
-    title: "Mandiri Tunas Finance",
-    role: "Software Engineer",
-    dates: "Jan - Mar, 2023",
-    location: "On-site, Jakarta Pusat (Indonesia)",
-    description: [
-        {
-          text: "Worked closely with Corporate Performance and Planning Management (CPM) division to develop branch performance monitoring web based application (MyBranch) for all head managers of PT Mandiri Tunas Finance around Indonesia",
-          technologies: []
-        },
-        {
-          text: "Sliced UI design fully responsive and improved web accessibility, SEO, performance, and best practices with Progressively Enhanced Multi-Page Apps (PEMPAs) Architecture.",
-          technologies: ["JavaScript","Bootstrap","jQuery","Hotwire Turbo"]
-        },
-        {
-          text: "Developed authentication, authorization, multifinance management, also performance monitoring services (ex: sales strategy, collection strategy,SLA branch,etc).",
-          technologies: ["Codeigniter"]
-        },
-        {
-          text: "Implementing clean code and security best practices at the agile scrum development stage process.",
-          technologies: ["OpenSSL", "Libsodium", "SQL Server", "Query Builder"]
-        }
-    ],
-    image: "/mtf.png",
-    mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-    links: [
+    "title": "Plura",
+    "role": "Next.js Fullstack Contributor",
+    "dates": "Dec 2024 - Present",
+    "location": "Remote",
+    "description": [
       {
-        title: "Website",
-        href: "https://www.mtf.co.id/",
-        icon: <Link className="size-3" />,
+        "text": "Developed a robust workflow page using React Flow, enabling users to create, visualize, and manage AI agent workflows with a dock of customizable nodes.",
+        "technologies": ["React Flow", "Next.js", "TypeScript", "Tailwind"]
       },
       {
-        title: "Proof",
-        href: "htpps://linkedin.com/in/jasonalhilal",
-        icon: <ExternalLink className="size-3" />,
-      },
-    ],
-  },
-  {
-    title: "TEDx Semarang",
-    role: "Fullstack Engineer",
-    dates: "Apr - Jun, 2024",
-    location: "Remote, Semarang (Indonesia)",
-    description: [
-      {
-        text: "Collaborated with other divisions to brainstorm, design, and develop a service product to help people participate in the TEDx event series.",
-        technologies: []
+        "text": "Designed and implemented a dashboard page with a structured data table displaying created workflows, their statuses, and relevant actions, ensuring a seamless user experience.",
+        "technologies": ["ShadCN", "React Table", "Zod"]
       },
       {
-        text: "Responsible for brainstorming, developing, testing, collaborating, code reviewing, debugging, and deploying frontend features.",
-        technologies: ["GitHub"]
+        "text": "Built a feedback system using ShadCN dialog with Zod validation, defining schemas, API routes, and helpers for managing user feedback efficiently.",
+        "technologies": ["ShadCN", "Zod", "Next.js API Routes"]
       },
       {
-        text: "Sliced UI design into a website and improved user experiences.",
-        technologies: ["Bootstrap", "SCSS", "JavaScript"]
+        "text": "Integrated a feature-rich table with ShadCN’s DataTable, including export functionality using export-from-json to download selected columns in CSV format.",
+        "technologies": ["ShadCN", "export-from-json", "TypeScript"]
       },
       {
-        text: "Implemented front-end engineering best practices and patterns and presented them to other engineers.",
-        technologies: []
-      },
-      {
-        text: "Migrated backend service into a new system with a better design pattern.",
-        technologies: ["Express.js"]
+        "text": "Implemented API management using Unkey, handling API creation for projects with secure validation using Zod.",
+        "technologies": ["Unkey", "Zod", "Next.js API Routes"]
       }
     ],
-    image: "/tedex.png",
+    "image": "/plura.png",
+    "links": [
+      {
+        "title": "Website",
+        "href": "https://plura.ai",
+        "icon": <Link className='size-3' />
+      },
+      {
+        "title": "Proof",
+        "href": "https://github.com/plura-ai/plura/issues?q=is%3Aissue+is%3Aclosed+assignee%3Arxhul18",
+        "icon": <ExternalLink className='size-3' />
+      }
+    ]
+  },
+  {
+    "title": "Rentkar",
+    "role": "Fullstack Web Developer Intern",
+    "dates": "May 2024 - Sep 2024",
+    "location": "On-site, Mumbai (India)",
+    "description": [
+      {
+        "text": "Development and maintenance of the entire frontend, ensuring a seamless user experience and optimizing the website for performance, accessibility, and SEO.",
+        "technologies": ["React", "Nextja", "Tailwind", "TypeScript"]
+      },
+      {
+        "text": "Built and integrated new features and pages, improving the platform’s functionality and enhancing user engagement.",
+        "technologies": ["React Redux"]
+      },
+      {
+        "text": "Contributed to backend enhancements by implementing APIs, database optimizations, and security improvements.",
+        "technologies": ["Node.js", "Express", "MongoDB"]
+      }
+    ],
+    image: "/rentkar.png",
     links: [
       {
         title: "Website",
-        href: "https://www.tedx.com/",
+        href: "https://rentkar.app/",
         icon: <Link className="size-3" />,
       },
       {
         title: "Proof",
-        href: "https://linkedin.com/in/jasonalhilal",
+        href: "https://linkedin.com/in/rxhul18",
         icon: <ExternalLink className="size-3" />,
       },
     ],
-  },
+  }
 ];

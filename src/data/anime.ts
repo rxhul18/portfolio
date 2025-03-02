@@ -14,35 +14,35 @@ export const AnimeData: Anime[] = [
     starred: true,
   },
   {
-    title: "Shingeki no Kyojin",
-    altTitle: "Attack on Titan",
-    href: "https://myanimelist.net/anime/16498/Shingeki_no_Kyojin",
-    imgName: "aot",
+    title: "One piece",
+    altTitle: "One piece",
+    href: "https://myanimelist.net/anime/21/One_Piece",
+    imgName: "lufi",
   },
   {
     title: "Boku no Hero Academia",
     href: "https://myanimelist.net/anime/31964/Boku_no_Hero_Academia",
     imgName: "bokhero",
   },
-  {
-    title: "Darling in the FranXX",
-    href: "https://myanimelist.net/anime/35849/Darling_in_the_FranXX",
-    imgName: "darling",
-    starred: true,
-  },
-  {
-    title: "Assassination Classroom",
-    href: "https://myanimelist.net/anime/24833/Ansatsu_Kyoushitsu",
-    imgName: "korosensei",
-    starred: true,
-  },
+  // {
+  //   title: "Darling in the FranXX",
+  //   href: "https://myanimelist.net/anime/35849/Darling_in_the_FranXX",
+  //   imgName: "darling",
+  //   starred: true,
+  // },
+  // {
+  //   title: "Assassination Classroom",
+  //   href: "https://myanimelist.net/anime/24833/Ansatsu_Kyoushitsu",
+  //   imgName: "korosensei",
+  //   starred: true,
+  // },
   
-  {
-    title: "Classroom of the Elite",
-    href: "https://myanimelist.net/anime/35507/Youkoso_Jitsuryoku_Shijou_Shugi_no_Kyoushitsu_e",
-    imgName: "coe",
-    starred: true,
-  },
+  // {
+  //   title: "Classroom of the Elite",
+  //   href: "https://myanimelist.net/anime/35507/Youkoso_Jitsuryoku_Shijou_Shugi_no_Kyoushitsu_e",
+  //   imgName: "coe",
+  //   starred: true,
+  // },
   {
     title: "No Game No Life",
     href: "https://myanimelist.net/anime/19815/No_Game_No_Life",

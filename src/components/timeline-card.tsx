@@ -60,7 +60,7 @@ export function TimeLineCard({
               <li key={idx}>
                 {point.text}
                 {point.technologies && point.technologies.length > 0 && (
-                  <span className="ml-2 text-white">
+                  <span className="ml-2 text-gray-500 dark:text-white">
                     ({point.technologies.join(", ")})
                   </span>
                 )}

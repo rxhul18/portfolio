@@ -30,7 +30,7 @@ export default function About() {
 
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <Image
-            src="/quote.gif"
+            src="/suzumi.gif"
             alt="quote"
             width={1920}
             height={1080}
@@ -65,9 +65,9 @@ export default function About() {
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold">Grindin' & Hustlin' 仕</h2>
+            <h2 className="text-xl font-bold">Shipping & Grindin' 仕</h2>
           </BlurFade>
-          {/* <BlurFade delay={BLUR_FADE_DELAY * 14}>
+          <BlurFade delay={BLUR_FADE_DELAY * 14}>
             <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
               {WORK.map((work, id) => (
                 <BlurFade
@@ -86,7 +86,19 @@ export default function About() {
                 </BlurFade>
               ))}
             </ul>
-          </BlurFade> */}
+          </BlurFade>
+        </div>
+      </section>
+      <section id="watashi">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 3}>
+            <h2 className="text-xl font-bold">About' 私</h2>
+          </BlurFade>
+          <BlurFade delay={BLUR_FADE_DELAY * 4}>
+          <Markdown className="space-y-3 max-w-full text-pretty font-sans  text-[14px] md:text-md text-muted-foreground dark:prose-invert text-justify">
+            {DATA.careerFull}
+          </Markdown>
+        </BlurFade>
         </div>
       </section>
       <section id="anime">
