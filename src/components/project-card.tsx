@@ -105,7 +105,7 @@ export function ProjectCard({
             {tags?.map((tag) => (
               <Badge
                 className="px-1 py-0 text-[10px]"
-                variant="secondary"
+                variant="default"
                 key={tag}
               >
                 {tag}
@@ -114,11 +114,11 @@ export function ProjectCard({
           </div>
         )}
       </CardContent>
-      <CardFooter className="px-2 pb-2">
+      <CardFooter className="px-2 py-4">
         {links && links.length > 0 && (
           <div className="flex flex-row flex-wrap items-start gap-1">
             {links?.map((link, idx) => (
-              <Link href={link?.href || ''} key={idx} target="_blank">
+              <Link href={link?.href || ""} key={idx} target="_blank">
                 <Badge key={idx} className={`flex gap-2 px-2 py-1 text-[10px]`}>
                   {link.icon}
                   {link.type}
@@ -128,11 +128,14 @@ export function ProjectCard({
           </div>
         )}
         {archived && (
-              <Badge variant="destructive" className="flex gap-2 px-2 py-1 text-[10px] ml-1">
-                <Icons.archive className="size-3" />
-                Archived
-              </Badge>
-            )}
+          <Badge
+            // variant="destructive"
+            className="flex gap-2 px-2 py-1 text-[10px] ml-1 bg-red-600 hover:bg-red-700"
+          >
+            <Icons.archive className="size-3" />
+            Archived
+          </Badge>
+        )}
       </CardFooter>
     </Card>
   );

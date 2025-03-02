@@ -2,8 +2,9 @@ import { Icons } from "@/components/icons";
 
 export const DATA = {
   name: "Rahul Shah",
+  xhandle:"mindpuzzledev",
   initials: "RS",
-  url: "https://rahulwtf.in",
+  url: "https://www.rahulwtf.in",
   resume: "https://docs.google.com/document/d/1xBPTATmv7PAthJrpQQbYEnBO0Fro5HOhtIRYixBkkdg/edit?tab=t.0…",
   prevImage: "/prev.png",
   myImage: "/buildspace.jpg",

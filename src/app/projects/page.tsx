@@ -29,7 +29,7 @@ export default function Projects() {
                   Some dope stuff I&apos;ve been hacking on 💻
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve been grindin' on all sorts of projects – from slick landing pages to full-on Web3 dApps. Here’s the collection of my builds.
+                  I&apos;ve been grindin' on all sorts of projects – from slick landing pages to full-on Web3 dApps. Here's the collection of my builds.
                 </p>
               </div>
             </div>
@@ -42,7 +42,6 @@ export default function Projects() {
                 <ProjectCard
                   href={project.href}
                   active={project.active}
-                  archived={project.archived}
                   key={project.title}
                   title={project.title}
                   description={project.description}

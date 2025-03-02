@@ -315,7 +315,7 @@ export default function Page() {
                         </p>
                       </div>
                     </div>
-                    <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto mt-8">
+                    <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[95%] sm:max-w-[800px] mx-auto mt-8">
                       {PROJECTS.filter((project) => project.featured).map(
                         (project, id) => (
                           <BlurFade
@@ -325,7 +325,6 @@ export default function Page() {
                             <ProjectCard
                               href={project.href}
                               active={project.active}
-                              archived={project.archived}
                               key={project.title}
                               title={project.title}
                               description={project.description}
@@ -377,7 +376,7 @@ export default function Page() {
                     triggerDisappear={triggerDisappear}
                   />
                 </div>
-                <div className="sm:w-2/3 w-full mt-0">
+                <div className="sm:w-2/3 sm:px-10 md:px-0 w-full mt-0">
                   <PlaceholdersAndVanishInput
                     type="text"
                     placeholders={placeholders}

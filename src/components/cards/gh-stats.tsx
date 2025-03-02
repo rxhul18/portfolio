@@ -5,10 +5,10 @@ import { getGHStats } from "@/lib/get-gh-stats";
 
 export const GHStats = () => {
   const [stats, setStats] = useState({
-    stars: 11,
-    followers: 23,
-    prs: 28,
-    issues: 1,
+    stars: 0,
+    followers: 0,
+    prs: 0,
+    issues: 0,
   });
 
   useEffect(() => {
