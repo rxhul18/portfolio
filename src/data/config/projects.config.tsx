@@ -3,7 +3,7 @@ import { Icons } from "@/components/icons";
 export const PROJECTS = [
   {
     title: "Orbit-Ai an advanced AI-powered tool",
-    href: "https://github.com/rxhul18/OrbitAi",
+    href: "https://orbitai.rahulwtf.in/",
     dates: "Feb 2025 - Mar 2025",
     featured: true,
     description:
@@ -35,7 +35,7 @@ export const PROJECTS = [
   },
   {
     title: "Interview Scheduler WebApp",
-    href: "https://github.com/rxhul18/InterviewScheduler",
+    href: "https://interview.rahulwtf.in/",
     dates: "Jan 2024",
     featured: true,
     active: false,
@@ -90,7 +90,7 @@ export const PROJECTS = [
   },
   {
     title: "Solana Token LaunchPad",
-    href: "https://github.com/rxhul18/SolanaTokenLaunchPad",
+    href: "https://solpad.rahulwtf.in/",
     dates: "Nov 2024",
     featured: false,
     description:
@@ -113,7 +113,7 @@ export const PROJECTS = [
   },
   {
     title: "Decentralized wallet - DeWall",
-    href: "https://github.com/rxhul18/DeWall",
+    href: "https://de-wall.vercel.app/",
     dates: "Sep 2024",
     featured: false,
     description:
@@ -136,7 +136,7 @@ export const PROJECTS = [
   },
   {
     title: "KaryaFy - TodoApp",
-    href: "https://github.com/rxhul18/KaryaFy",
+    href: "https://karyafy.vercel.app/",
     dates: "Mar 2024",
     featured: false,
     description:'"Karyafy" is modern platform related to tasksList ot TodoList. It combines "karya," which means task in Hindi, with the suffix "-fy," implying transformation or conversion into something. Overall, "Karyafy" suggests a platform that helps streamline or organize tasks effectively.',
@@ -144,12 +144,12 @@ export const PROJECTS = [
     links: [
       {
         type: "Source",
-        href: "https://github.com/0xSabdadev/mern-logsecurity-dashboard",
+        href: "https://github.com/rxhul18/KaryaFy",
         icon: <Icons.github className="size-3" />,
       },
       {
         type: "Website",
-        href: "https://de-wall.vercel.app/",
+        href: "https://karyafy.vercel.app/",
         icon: <Icons.globe className="size-3" />,
       }
     ],
@@ -158,8 +158,8 @@ export const PROJECTS = [
   },
   {
     title: "Pebble Clone",
-    href: "https://github.com/rxhul18/pebble",
-    dates: "",
+    href: "https://rxhul18.github.io/pebble/",
+    dates: "Jan - Mar 2024",
     featured: false,
     description: "Personal portfolio web app implemented with ReactJS and GraphQL.",
     technologies: ["ReactJs", "scss", "json", "Bootstrap", "react-router-dom"],

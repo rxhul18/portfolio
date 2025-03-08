@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import { AnimeCards } from "@/components/anime-cards";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ResumeCard } from "@/components/resume-card";
@@ -100,14 +99,6 @@ export default function About() {
           </Markdown>
         </BlurFade>
         </div>
-      </section>
-      <section id="anime">
-        <BlurFade delay={BLUR_FADE_DELAY * 15}>
-            <h2 className="text-xl font-bold">Anime Feels 好</h2>
-        </BlurFade>
-        <BlurFade delay={BLUR_FADE_DELAY * 16}>
-          <AnimeCards/>
-        </BlurFade>
       </section>
       <section id="connect">
         <BlurFade delay={BLUR_FADE_DELAY * 17}>

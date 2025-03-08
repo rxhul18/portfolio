@@ -1,4 +1,3 @@
-
 "use client";
 import { useState, useEffect } from "react";
 import { Lens } from "@/components/acternityui/lens";
@@ -100,7 +99,7 @@ export default function Page() {
     }
     setTriggerDisappear(true);
     setIsInputLoading(true);
-    toast.info("Ur message is being mined...");
+    toast("Ur message is being mined...", { style: { backgroundColor: "white" } });
     try {
       const response = await fetch("/api/telegram", {
         method: "POST",
@@ -117,17 +116,11 @@ export default function Page() {
       const data = await response.json();
       setIsInputLoading(false);
       // Show success toast
-      toast.success(" Tx confirmed! live on-chain to 0xSabdadev!");
-      // Update local storage to indicate subscription
-      localStorage.setItem("devwtf-nsl", data.id);
-      // Update state to reflect subscription
-      setIsNsl(false);
-      setTriggerDisappear(false);
+      toast(" Tx confirmed! live on-chain to rxhul18!", { style: { backgroundColor: "white" } });
     } catch (error) {
       setIsInputLoading(false);
-      console.error("Error messaging:", error);
       // Show error toast
-      toast.error("Message failed. Please try again.");
+      toast("Message failed. Please try again.", { style: { backgroundColor: "white" } });
     }
   };
 
@@ -215,11 +208,11 @@ export default function Page() {
         </BlurFade>
       </section>
       <section id="blogs">
-        <div className="space-y-12 w-full py-12">
+        <div className="space-y-12 w-full py-8">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-lg">
                   Fresh Drops ㊗️
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
@@ -303,7 +296,7 @@ export default function Page() {
                         </h2>
                         <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                           I&apos;ve been buildin' some dope Web3 stuff, from
-                          slick dApps to full-blown solutions. Here’s a taste of
+                          slick dApps to full-blown solutions. Here's a taste of
                           my favs – check out more{" "}
                           <Link
                             href="/projects"
@@ -347,7 +340,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section id="newsletter">
+      <section id="reach">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-3">
@@ -358,7 +351,7 @@ export default function Page() {
                 No Centralized Vibes
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Got something to say? Drop your message below, and let’s talk
+                Got something to say? Drop your message below, and let's talk
                 AI/ML, blockchain, crypto, and all things decentralized. No spam, just
                 straight-up vibes.
               </p>
