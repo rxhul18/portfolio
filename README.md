@@ -1,53 +1,59 @@
-<div align="center">
-</div>
+# Portfolio - Minimalist Developer Portfolio
 
-# 🚀 Welcome to the Future! [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/)
+Welcome to my portfolio! This is a minimalist developer portfolio built using **Next.js 14**, **React**, **TailwindCSS**, **Shadcn UI**, **Acternity UI**, and **Magic UI**.
 
-Step into the matrix of web brilliance, powered by **Next.js 14**, **Loops**, **Shadcn/UI**, **Acternity UI**, **Magic UI**, and deployed in the mystical realms of **Vercel**. This portfolio isn't just a website. It's an evolution. A digital life form breathing innovation.
+## 🛠️ Technologies Used
 
-# 🛠 Features
+- **Next.js 14**: A React framework for production.
+- **React**: JavaScript library for building user interfaces.
+- **TailwindCSS**: Utility-first CSS framework for styling.
+- **Shadcn UI**: A modern UI component library.
+- **Acternity UI**: A beautiful set of UI components and utilities.
+- **Magic UI**: A UI component library that makes building modern interfaces easy.
 
-- **Plug-and-Play Genius**: Set up in *minutes*. Just tweak a [single config file](./src/data/config/site.config.tsx) and watch your digital masterpiece unfold.
-- **Tech-Powered Magic**: Next.js 14? Check. Typescript? Check. UI wizardry with Shadcn, Acternity, and Magic UI? Double-check. TailwindCSS for vibes and Framer Motion for those slick animations? Absolutely.
-- **Meeting Generator**: Time-bender alert! Let users summon meetings with a click.
-- **Telegram API Integration**: Whisper to the bot. Control it all from your pocket.
-- **Responsive Sorcery**: Works on everything. Phones, tablets, desktops, moon bases—guaranteed.
-- **Optimized for Speed**: Turbocharged with Next.js and deployed by the guardians of Vercel.
+## 📸 Screenshots
 
-# ⚡️ The Journey Begins
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/c0ad8b8b-6d47-4a99-80ba-d5c09b9da01e" />
 
-## 1. Clone Your New Reality
+## 🔗 Links
 
-```bash
-git clone https://github.com/0xSabdadev/dev-portfolio/
-```
+- [Discord](https://discord.com/users/1186974166906306622)
+- [LinkedIn](https://www.linkedin.com/in/rxhul18)
+- [Twitter/X](https://x.com/mindpuzzledev)
 
-## 2. Enter the Domain
+## 💻 Features
 
-```bash
-cd dev-portfolio
-```
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices.
+- **Interactive UI**: Dynamic elements with smooth transitions and animations.
+- **GitHub Stats**: Display of GitHub stats to showcase my contributions and activity.
+- **Discord Integration**: Easy access to my Discord profile for communication.
 
-## 3. Summon the Dependencies
+# Getting Started Locally
 
-```bash
-pnpm install
-```
+1. Clone this repository to your local machine:
 
-## 4. Initiate the Magic
+   ```bash
+   git clone https://github.com/rxhul18/portfolio
+   ```
 
-```bash
-pnpm dev
-```
+2. Move to the cloned directory
 
-## 5. Shape Your Universe
+   ```bash
+   cd portfolio
+   ```
 
-Open [this sacred file](./src/data/config/site.config.tsx) and start molding your dream portfolio. It's alive, now make it yours.
+3. Install dependencies:
 
-## 6. 3rd Party Integration
+   ```bash
+   bun install
+   ```
 
-Sync up with the matrix by setting up your [Loops](https://loops.so/) account and add your secret keys: `LOOPS_API_KEY`, `GITHUB_TOKEN`, `WAKATIME_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHANNEL_CHAT_ID` in your `.env.local`.
+4. Start the local Server:
 
-# 🙏 Acknowledgments 
+   ```bash
+   bun dev
+   ```
 
-Massive props to [Dillion Verma](https://github.com/dillionverma/portfolio) for the foundational template. Your genius set the stage; we just added some cosmic flair.
+5. Open the [Config file](./src/data/config/site.config.tsx) and make changes
+
+6. Set up your github and telegram token in your API key to the `env.local` file as mentioned in `.env.example`
