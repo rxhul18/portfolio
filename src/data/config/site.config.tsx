@@ -119,6 +119,6 @@ export const DATA = {
         "Developed a mobile beta application which can place direct order to the canteen with, prebreak seat reservation and daily menu detail.",
       image:"https://media.licdn.com/dms/image/v2/C4D0BAQH68oGjxpzFKA/company-logo_200_200/company-logo_200_200/0/1661758166658/avenuedypiu_logo?e=1749081600&v=beta&t=c1751pqaH4K2JObRGyXKxJF0x6_4_96e63gwwIB4g7U",
       links: "https://www.linkedin.com/posts/rxhul18_disruptthenorm-avenyou-dypatilinternationaluniversity-activity-7195248826473996289-JNXk/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADs3NSABTr9keFQ2FkiGCNff9sQItV9tgko",
-    },
+    }
   ],
 } as const;

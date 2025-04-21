@@ -2,6 +2,38 @@ import { Icons } from "@/components/icons";
 
 export const PROJECTS = [
   {
+    title: "IndexFlow a platform where Discord community owners can Index their community threads",
+    href: "https://indexflow.site/",
+    dates: "Feb 2025 - Mar 2025",
+    featured: true,
+    description:
+      "Orbit-Ai is an advanced AI-powered tool that enables you to interact seamlessly with any website or document (including PDFs & CSVs) using natural language. Whether you're looking to extract specific data or gain insights, Orbit-Ai makes it possible with ease. Best of all, it's free and accessible to everyone.",
+    technologies: [
+      "NextJs",
+      "TailwindCSS",
+      "Supabase",
+      "Upstash-redis",
+      "Shadcn",
+      "Together.ai",
+      "MagicUI",
+      "Deepseek R1"
+    ],
+    links: [
+      {
+        type: "Source",
+        href: "https://github.com/SkidGod4444/indexflow",
+        icon: <Icons.github className="size-3" />,
+      },
+      {
+        type: "Website",
+        href: "https://indexflow.site/",
+        icon: <Icons.globe className="size-3" />,
+      },
+    ],
+    image: "https://i.imgur.com/WSVSIWR.png",
+    video: "",
+  },
+  {
     title: "Orbit-Ai an advanced AI-powered tool",
     href: "https://orbitai.rahulwtf.in/",
     dates: "Feb 2025 - Mar 2025",
@@ -34,10 +66,44 @@ export const PROJECTS = [
     video: "",
   },
   {
+    title: "Budget Tracker App",
+    href: "https://budget.rahulwtf.in/",
+    dates: "Feb - Apr 2024",
+    featured: false,
+    active: false,
+    description:
+      "Builted a budget tracker website on top of Nextjs to keep a track of incomes & expenses by category – also let’s you download your data when needed.",
+    technologies: [
+      "Nextjs",
+      "Typescript",
+      "ShadcnUI",
+      "TailwindCSS",
+      "React Tanstack Query",
+      "Zod",
+      "Postgres",
+      "Prisma",
+      "export-to-csv"
+    ],
+    links: [
+      {
+        type: "Source",
+        href: "https://github.com/rxhul18/budgetracker/",
+        icon: <Icons.github className="size-3" />,
+      },
+      {
+        type: "Website",
+        href: "https://budget.rahulwtf.in/",
+        icon: <Icons.globe className="size-3" />,
+      },
+    ],
+    image: "https://i.imgur.com/I13puEo.png",
+    video: "",
+  },
+  {
     title: "Interview Scheduler WebApp",
     href: "https://interview.rahulwtf.in/",
     dates: "Jan 2024",
-    featured: true,
+    featured: false,
     active: false,
     description:
       "Interview Scheduler is a modern React application designed to help HR professionals and recruiters efficiently schedule, manage, and view interviews.",

@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { getGHStats } from "@/lib/get-gh-stats";
+import { Github } from "lucide-react";
 
 export const GHStats = () => {
   const [stats, setStats] = useState({
@@ -44,6 +45,9 @@ export const GHStats = () => {
           <GitHubStatsData label="⚪ issues" value={stats.issues} />
         </div>
       </a>
+      <span className="absolute bottom-2 right-2">
+        <Github className="text-white" />
+      </span>
     </div>
   );
 };

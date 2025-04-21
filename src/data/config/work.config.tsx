@@ -26,11 +26,11 @@ export const WORK = [
     ],
     "image": "/iitm.jpg",
     "links": [
-      // {
-      //   "title": "Website",
-      //   "href": "https://nextcarbon.app/",
-      //   "icon": "<Link className='size-3' />"
-      // },
+      {
+        "title": "Website",
+        "href": "https://next-carbon-five.vercel.app/",
+        "icon": <Link className='size-3' />
+      },
       {
         "title": "Proof",
         "href": "https://github.com/rxhul18/Next_carbon",
@@ -41,7 +41,7 @@ export const WORK = [
   {
     "title": "Plura",
     "role": "Next.js Fullstack Contributor",
-    "dates": "Dec 2024 - Present",
+    "dates": "Nov 2024 - Jan 2025",
     "location": "Remote",
     "description": [
       {
@@ -102,7 +102,7 @@ export const WORK = [
     links: [
       {
         title: "Website",
-        href: "https://rentkar.app/",
+        href: "https://dev.rentkar.app/mumbai/home/",
         icon: <Link className="size-3" />,
       },
       {

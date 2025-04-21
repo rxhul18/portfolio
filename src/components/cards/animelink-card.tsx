@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowUpRight, Github } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import catImage from "../../../public/0002.jpg"
 
 export const AnimeLinkCard = () => {
@@ -15,11 +15,8 @@ export const AnimeLinkCard = () => {
           priority
         />
         <p className="font-bold -rotate-90 absolute top-10 bottom-16 -left-[3.70rem] text-white w-40">
-          私 GITHUB
+          About 私
         </p>
-        <span className="absolute bottom-2 right-2">
-          <Github className="text-white"/>
-        </span>
         <ArrowUpRight className="absolute text-white transition-all group-hover:scale-105 top-2 right-2 border border-white bg-black rounded-full p-1" />
       </div>
     </Link>
